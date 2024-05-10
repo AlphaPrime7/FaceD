@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: faced
+Version: 0.0.4
+Summary: FaceD for Static face detection
+Home-page: https://github.com/AlphaPrime7/faced
+Author: Tingwei Adeck
+Author-email: awesome.tingwei@outlook.com
+License: LICENSE
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/AlphaPrime7/faced)
 [![Demandez moi n’importe quoi
 !](https://img.shields.io/badge/Demandez%20moi-n'%20importe%20quoi-1abc9c.svg)](mailto:awesome.tingwei@outlook.com)
