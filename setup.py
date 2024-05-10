@@ -20,7 +20,7 @@ with open("README.md", "r", encoding = "utf-8") as rme:
 
 setup(
     name='faced',
-    version='0.0.4',
+    version='0.0.5',
     author = "Tingwei Adeck",
     author_email = "awesome.tingwei@outlook.com",
     description = "FaceD for Static face detection",
