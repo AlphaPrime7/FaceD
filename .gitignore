@@ -3,7 +3,7 @@ __pycache__/
 *$py.class
 .venv*
 .vscode*
-_*.ps1
+*.ps1
 Pipfile.lock
 __pycache__/
 build/
