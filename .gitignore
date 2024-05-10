@@ -1,8 +1,17 @@
-.venv*
-.vscode*
-_*.ps1
-Pipfile.lock
-__pycache__/
-build/
-dist/
-
+    __pycache__/
+    *.py[cod]
+    *$py.class
+    .venv*
+    .vscode*
+    _*.ps1
+    Pipfile.lock
+    __pycache__/
+    build/
+    dist/
+    .Python
+    develop-eggs/
+    eggs/
+    .eggs/
+    sdist/
+    *.egg-info/
+    
