@@ -1,0 +1,2 @@
+include src/faced/data/*.zip
+include src/faced/data/*png
