@@ -10,9 +10,11 @@ from faced.pil_utils.pil_utils import *
 def faced_keyword(zfile, keyword=None):
     image_props_dict = {}
     canvas_list = []
+    #parent_canvas = Image.new('RGB', (int(0), int(0) ), (0, 0, 0))
 
     zf_class = ZipFile(zfile, mode='r')
-    finfo = ZipFile(zfile, mode='r').infolist() 
+    finfo = ZipFile(zfile, mode='r').infolist()
+
     for i in finfo:
         with Image.open(zf_class.open(name=i.filename)).convert('RGB') as img:
             img.load()
@@ -52,7 +54,7 @@ def faced_keyword(zfile, keyword=None):
                 canvas.show()
             
             else:
-                print(f'No images forund in {img_name}')
+                print(f'No images found in {img_name}')
 
             nrows = math.ceil(len(canvas_list)/2)
             ncols = nrows
