@@ -28,7 +28,7 @@ if not sys.version_info[0] == 3 and sys.version_info[1] == 8:
 #COMMANDS = ['x = y']
 setup(
     name='faced',
-    version='0.0.7',
+    version='0.0.8',
     author = "Tingwei Adeck",
     author_email = "awesome.tingwei@outlook.com",
     description = "FaceD for Static face detection",
@@ -41,7 +41,7 @@ setup(
     include_package_data=True,
     python_requires='>=3.12.9',
     install_requires=[
-        'opencv-contrib-python-headless'
+        'opencv-contrib-python-headless',
         'opencv-python-headless',
         'opencv-python',
         'pytesseract>=0.3.10',
